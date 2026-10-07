@@ -1,0 +1,15 @@
+.checkbox__label {
+  display: flex;
+  min-width: 3rem;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox__text {
+  color: var(--clr-brand-primary);
+  cursor: pointer;
+  &:hover {
+    color: var(--clr-brand-secondary);
+  }
+}
